@@ -29,6 +29,10 @@ Live network traffic was captured on a Kali Linux machine running in VirtualBox.
 
 - **HTTP exposes data in plaintext** — using the "Follow TCP Stream" feature, the full contents of HTTP sessions were readable without any decryption. The same traffic over HTTPS would be unreadable.
 - **DNS queries are unencrypted by default** — every domain lookup is visible to anyone monitoring the network, enabling tracking of browsing behaviour.
+-  **Port scan traffic detected in real time** — Nmap scan activity 
+  generated a flood of TCP SYN packets to sequential ports, 
+  visible live in Wireshark — demonstrating passive intrusion 
+  detection capability.
 
 ---
 
