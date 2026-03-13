@@ -37,7 +37,7 @@ Live network traffic was captured on a Kali Linux machine running in VirtualBox.
 
 The full written analysis including annotated screenshots, protocol breakdowns, and security recommendations is available here:
 
-📄 **[View Full Report (PDF)](report/wireshark_analysis_report.pdf)**
+📄 **[View Full Report (PDF)](report/Wireshark_report.pdf)**
 
 ---
 
