@@ -29,7 +29,6 @@ Live network traffic was captured on a Kali Linux machine running in VirtualBox.
 
 - **HTTP exposes data in plaintext** — using the "Follow TCP Stream" feature, the full contents of HTTP sessions were readable without any decryption. The same traffic over HTTPS would be unreadable.
 - **DNS queries are unencrypted by default** — every domain lookup is visible to anyone monitoring the network, enabling tracking of browsing behaviour.
-- **Protocol distribution** — analysis of the capture session showed the breakdown of traffic types across the session (see full report for Protocol Hierarchy statistics).
 
 ---
 
